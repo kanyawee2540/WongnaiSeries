@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+*{
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+.logo{
+    margin-left: 20px;
+    float: left;
+    display: inline;
+    width: 10%;
+    height: 10%;
+}
+.user{
+    margin-left: 20px;
+    float: right;
+    display: inline;
+}
+input[type=text]{
+    width: 40%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 40px;
+  }
+  input[type=submit]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #ffffff;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 6px 7px 6px 7px;
+  }

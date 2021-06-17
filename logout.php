@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['userid']);
+unset($_SESSION['name']);
+unset($_SESSION['name']);
+unset($_SESSION['userlevel']);
+session_destroy();
+header("Location:home_User.php");
+?>

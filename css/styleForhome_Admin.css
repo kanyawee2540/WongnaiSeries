@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+}
+* {
+  font-family: "Sarabun", sans-serif;
+  text-align: center;
+}
+/*header css*/
+.header {
+  width: 98.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+.logo {
+  margin-left: 20px;
+  float: left;
+  display: inline;
+  width: 10%;
+  height: 10%;
+}
+.user {
+  margin-left: 20px;
+  float: right;
+  display: inline;
+}
+/*table css*/
+#info {
+  border-collapse: collapse;
+  width: 80%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#info td,
+#info th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#info tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#info tr:hover {
+  background-color: #ddd;
+}
+
+#info th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #e67d57;
+  color: white;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="submit"],
+input[name="typesubmit"] {
+  background-color: #e67d57;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  color: white;
+  padding: 6px 7px 6px 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+input[type="button"] {
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid #a3a7ac;
+  color: rgb(245, 92, 92);
+  padding: 6px 7px 6px 7px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.centerpoint {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+.notification {
+  position: relative;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+}
+.btn {
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  color: rgb(3, 3, 3);
+  padding: 6px 7px 6px 7px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.description {
+  color: rgb(133, 132, 132);
+  font-size: 13px;
+}
+.category{
+  padding-left: 10px;
+}
+input[name="insertnew"] {
+  background-color: #37c542;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid #a3a7ac;
+  color: rgb(255, 255, 255);
+  padding: 6px 7px 6px 7px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.error{
+  color: red;
+}
+.success{
+  color: green;
+}
