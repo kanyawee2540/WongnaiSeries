@@ -1,5 +1,5 @@
 <?php
-require_once 'dbConfig.php';
+require_once 'dbConfig.phpppppp';
 // sql to delete a record
 $id=$_GET["id"];
 echo $id;
